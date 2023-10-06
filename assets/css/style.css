@@ -1,0 +1,153 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background: darkslateblue;
+}
+body h1 {
+  color: #4af765;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  animation: mYAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes mYAnim {
+  0% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+body h2 {
+  color: #f33f3f;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: scale(0);
+  }
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: scale(1);
+  }
+  55% {
+    animation-timing-function: ease-in;
+    transform: scale(0.7);
+  }
+  72% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+  81% {
+    animation-timing-function: ease-in;
+    transform: scale(0.84);
+  }
+  89% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+  95% {
+    animation-timing-function: ease-in;
+    transform: scale(0.95);
+  }
+  100% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+body h5 {
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-bottom: 2px solid white;
+}
+body .form {
+  background: darkslateblue;
+  width: 330px;
+  height: 150px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+  outline: 5px solid black;
+}
+body .form .inputText {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 292px;
+}
+body .form .inputText #number {
+  outline: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 190px;
+  padding-left: 10px;
+  background: darkslateblue;
+  border: 2px solid white;
+  color: white;
+}
+body .form .inputText #number::-moz-placeholder {
+  color: rgb(187, 187, 187);
+}
+body .form .inputText #number::placeholder {
+  color: rgb(187, 187, 187);
+}
+body .form .inputText #send {
+  font-weight: 600;
+  width: 70px;
+  height: 33px;
+  border-radius: 5px;
+  border: none;
+  background: black;
+  color: white;
+  font-family: system-ui;
+  font-size: 12px;
+  transition: 0.4s;
+}
+body .form .inputText #send:hover {
+  color: black;
+  background: white;
+  transition: 0.4s;
+}
+body .form .timer {
+  display: flex;
+  justify-content: space-between;
+  width: 278px;
+}
+body .form .timer span {
+  font-size: 20px;
+  font-family: system-ui;
+  font-weight: 600;
+  color: white;
+}
+body .form .timer #reset {
+  font-weight: 600;
+  width: 110px;
+  height: 33px;
+  border-radius: 5px;
+  border: none;
+  font-family: system-ui;
+  font-size: 12px;
+  transition: 0.4s;
+}/*# sourceMappingURL=style.css.map */
